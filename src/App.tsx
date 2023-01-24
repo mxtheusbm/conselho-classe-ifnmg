@@ -1,8 +1,8 @@
-import Login from "./components/login"
+import Cadastro from "./components/cadastro"
 
 function App() {
   return (
-    <Login/>
+    <Cadastro/>
   )
 }
 

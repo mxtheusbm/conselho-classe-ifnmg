@@ -1,9 +1,10 @@
 export type InputProps = {
   label: string;
   placeholder: string;
+  type: string;
 }
 
-function Input({label, placeholder}: InputProps) {
+function Input({label, placeholder, type}: InputProps) {
   return (
     <div className="flex flex-col gap-2">
       <label className="text-xs font-medium text-gray-800">
@@ -12,7 +13,7 @@ function Input({label, placeholder}: InputProps) {
       
       <input
         className="bg-green-50 py-3 px-5 rounded-md border-none" 
-        type="text"
+        type={type}
         placeholder={placeholder}
       />
     </div>
