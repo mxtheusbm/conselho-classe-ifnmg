@@ -5,7 +5,12 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}"
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'wave-haikei': "url('../assets/wave-haikei.png')",
+
+      }
+    },
   },
   plugins: [],
 }
