@@ -1,4 +1,4 @@
-import Input from "../input";
+import Input from "../../components/input";
 
 function Cadastro() {
   return (
@@ -13,12 +13,12 @@ function Cadastro() {
           />
           <Input 
             label="Senha" 
-            placeholder="********"
+            placeholder="******"
             type="password"
           />
           <Input 
             label="Confirmar Senha" 
-            placeholder="********"
+            placeholder="******"
             type="password"
           />
           <div className="flex flex-row text-xs font-medium text-gray-800">
