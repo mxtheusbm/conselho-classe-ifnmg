@@ -1,4 +1,4 @@
-import Input from "../input";
+import Input from "../../components/input";
 
 function Login() {
   return (
@@ -9,10 +9,12 @@ function Login() {
           <Input 
             label="Email" 
             placeholder="email@email.com"
+            type="text"
           />
           <Input 
             label="Senha" 
-            placeholder="Senha"
+            placeholder="******"
+            type="text"
           />
         </div>
         <div className="flex flex-col items-center gap-8">

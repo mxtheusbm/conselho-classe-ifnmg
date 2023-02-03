@@ -1,8 +1,12 @@
-import Cadastro from "./components/cadastro"
+import { BrowserRouter } from "react-router-dom"
+import Register from "./pages/register"
+import Router from "./Router"
 
 function App() {
   return (
-    <Cadastro/>
+    <BrowserRouter>
+      <Router />
+    </BrowserRouter>
   )
 }
 
