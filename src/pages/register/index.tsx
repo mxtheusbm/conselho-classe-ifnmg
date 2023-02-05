@@ -21,19 +21,19 @@ function Cadastro() {
             placeholder="******"
             type="password"
           />
-          <div className="flex flex-row text-xs font-medium text-gray-800">
+          <div className="flex text-xs font-medium text-gray-800 items-center">
             <Input
                 label=""
                 placeholder=""
                 type="checkbox"
             />
-            <p>Eu concordo com os Termos e Privacidade</p>
+            <p className="ml-1">Eu concordo com os Termos e Privacidade</p>
           </div>
           
         </div>
         <div className="flex flex-col items-center gap-8">
           <button className="font-medium text-white py-4 w-full bg-green-400 rounded-md hover:bg-green-500">Criar Conta</button>
-          <p className="text-sm text-gray-500">Já tem uma conta? <span className="text-green-400">Faça login</span></p>
+          <p className="text-sm text-gray-500">Já tem uma conta? <a href="/login" className="text-green-400">Faça login</a></p>
         </div>
       </div>
     </div>

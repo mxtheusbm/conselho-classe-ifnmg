@@ -19,7 +19,7 @@ function Login() {
         </div>
         <div className="flex flex-col items-center gap-8">
           <button className="font-medium text-white py-4 w-full bg-green-400 rounded-md hover:bg-green-500">Entrar</button>
-          <p className="text-sm text-gray-500">Não tem uma conta? <span className="text-green-400">Crie uma nova</span></p>
+          <p className="text-sm text-gray-500">Não tem uma conta? <a href="/register" className="text-green-400">Crie uma nova</a></p>
         </div>
       </div>
     </div>
