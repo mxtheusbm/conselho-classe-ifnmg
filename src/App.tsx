@@ -1,12 +1,6 @@
-import { BrowserRouter } from "react-router-dom"
-import Register from "./pages/register"
-import Router from "./Router"
-
 function App() {
   return (
-    <BrowserRouter>
-      <Router />
-    </BrowserRouter>
+    <h1>Hello world</h1>
   )
 }
 
