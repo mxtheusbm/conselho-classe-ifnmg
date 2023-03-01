@@ -7,7 +7,7 @@ export interface IFormValues {
 
 type InputProps = {
   label?: string;
-  name: "email" | "password"
+  name: "email" | "password"| "passwordConfirmation"
   placeholder?: string;
   type: string;
   register: UseFormRegister<IFormValues>;
