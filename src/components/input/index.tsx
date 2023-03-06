@@ -7,11 +7,11 @@ export interface IFormValues {
 
 type InputProps = {
   label?: string;
-  name: "email" | "password"
+  name?: string
   placeholder?: string;
   type: string;
-  register: UseFormRegister<IFormValues>;
-  errors?: string | undefined;
+  register?: UseFormRegister<IFormValues>;
+  errors?: string;
 };
 
 function Input({ label, name, placeholder, type, register, errors }: InputProps) {
@@ -26,7 +26,7 @@ function Input({ label, name, placeholder, type, register, errors }: InputProps)
           className={`bg-green-50 py-3 px-5 rounded-md outline-none ${errors && "border-[1px] border-red-500"}`}
           type={type}
           placeholder={placeholder}
-          {...register(name)}
+          // {...register(name)}
         />
 
         {errors && <span className="text-xs text-red-500">{errors}</span>}
