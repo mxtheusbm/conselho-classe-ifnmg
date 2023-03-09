@@ -27,7 +27,7 @@ function Cadastro() {
                 placeholder=""
                 type="checkbox"
             />
-            <p>Eu concordo com os Termos e Privacidade</p>
+            <p className="ml-1">Eu concordo com os Termos e Privacidade</p>
           </div>
           
         </div>
